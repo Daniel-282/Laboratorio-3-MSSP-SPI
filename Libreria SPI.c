@@ -40,5 +40,3 @@ char spiRead() //REad the received data
     spiReceiveWait();        // wait until the all bits receive
     return(SSPBUF); // read the received data from the buffer
 }
-
-
